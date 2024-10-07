@@ -1,6 +1,7 @@
 package com.morenoagudo.email_service.infra.ses;
 
 import com.amazonaws.AmazonClientException;
+import com.amazonaws.services.pinpointemail.model.SendEmailRequest;
 import com.amazonaws.services.simpleemail.AmazonSimpleEmailService;
 import com.amazonaws.services.workmail.model.EmailAddressInUseException;
 import com.morenoagudo.email_service.adapters.EmailSenderGateway;
